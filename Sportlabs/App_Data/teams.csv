@@ -1,0 +1,79 @@
+ID,Name,Country,Eliminated
+2610,Olympiacos,Greece,TRUE
+7889,Liverpool,England,TRUE
+50004,Grasshoppers,Switzerland,TRUE
+50023,Monaco,France,FALSE
+50030,Salzburg,Austria,TRUE
+50033,Sparta Praha,Czech Republic,TRUE
+50037,Bayern,Germany,FALSE
+50050,Celtic,Scotland,TRUE
+50051,Real Madrid,Spain,FALSE
+50052,HJK,Finland,TRUE
+50064,Porto,Portugal,FALSE
+50065,Steaua,Romania,TRUE
+50067,Galatasaray,Turkey,TRUE
+50074,Anderlecht,Belgium,TRUE
+50080,Barcelona,Spain,FALSE
+50084,Panathinaikos,Greece,TRUE
+50109,Leverkusen,Germany,FALSE
+50118,APOEL,Cyprus,TRUE
+50124,Atlético,Spain,FALSE
+50125,Athletic,Spain,TRUE
+50133,St Patrick's,Republic of Ireland,TRUE
+50136,Napoli,Italy,TRUE
+50137,Roma,Italy,TRUE
+50139,Juventus,Italy,FALSE
+50143,Ajax,Netherlands,TRUE
+50146,Legia,Poland,TRUE
+50147,Benfica,Portugal,TRUE
+50149,Sporting,Portugal,TRUE
+50152,Malmö,Sweden,TRUE
+50157,Be?ikta?,Turkey,TRUE
+50158,Dnipro,Ukraine,TRUE
+50162,Partizan,Serbia,TRUE
+50164,Dinamo Zagreb,Croatia,TRUE
+52165,Standard Liège,Belgium,TRUE
+52280,Arsenal,England,FALSE
+52307,KR,Iceland,TRUE
+52641,Valletta,Malta,TRUE
+52705,Dinamo Tbilisi,Georgia,TRUE
+52707,Shakhtar Donetsk,Ukraine,FALSE
+52709,København,Denmark,TRUE
+52747,Paris,France,FALSE
+52749,Feyenoord,Netherlands,TRUE
+52758,Dortmund,Germany,FALSE
+52797,Slovan Bratislava,Slovakia,TRUE
+52800,AEL,Cyprus,TRUE
+52826,Zenit,Russia,TRUE
+52914,Chelsea,England,FALSE
+52919,Man. City,England,FALSE
+52958,Debrecen,Hungary,TRUE
+52991,Cliftonville,Northern Ireland,TRUE
+54186,AaB,Denmark,TRUE
+54266,CSKA Moskva,Russia,TRUE
+57388,Schalke,Germany,FALSE
+57477,M. Tel-Aviv,Israel,TRUE
+57485,Strømsgodset,Norway,TRUE
+57490,Maribor,Slovenia,TRUE
+59025,HB,Faroe Islands,TRUE
+59028,Dudelange,Luxembourg,TRUE
+59856,Basel,Switzerland,FALSE
+60457,TNS,Wales,TRUE
+60609,Qaraba?,Azerbaijan,TRUE
+62180,FC Santa Coloma,Andorra,TRUE
+64114,Skënderbeu,Albania,TRUE
+64359,Ventspils,Latvia,TRUE
+64508,La Fiorita,San Marino,TRUE
+66168,BATE,Belarus,TRUE
+69601,Rabotnicki,FYR Macedonia,TRUE
+69606,Sheriff,Moldova,TRUE
+73390,Zrinjski,Bosnia and Herzegovina,TRUE
+73936,Sutjeska,Montenegro,TRUE
+75797,LOSC,France,TRUE
+77482,Levadia,Estonia,TRUE
+77866,Banants,Armenia,TRUE
+79973,Aktobe,Kazakhstan,TRUE
+2602334,Žalgiris,Lithuania,TRUE
+2603104,Ludogorets,Bulgaria,TRUE
+2605572,Lincoln,Gibraltar,TRUE
+NULL,NULL,NULL,NULL

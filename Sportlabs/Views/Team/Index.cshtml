@@ -1,0 +1,80 @@
+﻿@model  IEnumerable<SportsLabs.Models.Team>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Teams";
+}
+
+
+<div class="col-md-12">
+    <h2>Welcome to Sportlabs  Technology</h2>    
+</div>
+
+@using (Html.BeginForm("Index", "Team", FormMethod.Get))
+{
+    <p>
+        <div class="form-group">
+            Search Team or Country : @Html.TextBox("searchTerm", ViewBag.CurrentFilter as string, htmlAttributes: new { @class = "form-control" })
+            <input type="submit" value="Search Teams" class="btn btn-default" />
+        </div>
+    </p>
+}
+<div>
+    @(Session["Notification"] != null ? Session["Notification"] : string.Empty)
+</div>
+<table class="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            Eliminated
+        </th>
+        <th>
+            Club Profile
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                <img src="http://img.uefa.com/imgml/TP/teams/logos/70x70/@(item.Id).png" alt="Image" title="@item.Name" />
+                @Html.ActionLink(item.Name, "Details", new { id = item.Id })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eliminated)
+            </td>
+            <td>
+                <a href="https://www.uefa.com/teamsandplayers/teams/club=@(item.Id)/profile/index.html" target="_blank" title="Club Profile @item.Name">
+                    Profile
+                </a>
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Edit", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<br />
+@*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))*@
